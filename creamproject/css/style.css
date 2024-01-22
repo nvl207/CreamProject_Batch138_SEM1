@@ -1,0 +1,202 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 1000px; /* Thay đổi giá trị max-width tùy thuộc vào ý muốn của bạn */
+    margin: 0 auto; /* Để căn giữa header */
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+/* Logo Styles */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 178.65px;  /* Đặt chiều rộng theo tỉ lệ mong muốn */
+    height: 166.27px; /* Đặt chiều cao theo tỉ lệ mong muốn */
+}
+
+.tag-line {
+    font-size: 0.8em;
+    color: #666;
+    margin-left: 10px;
+}
+
+
+/* Mini Cart Styles */
+.mini-cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart-icon {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-count {
+    margin-left: 5px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+/* Inspiry Search Wrapper Styles */
+.inspiry-search-wrapper {
+    flex-grow: 1;
+}
+
+/* Main Menu Styles */
+.main-menu-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.main-menu {
+    list-style: none;
+    display: flex;
+}
+
+.main-menu li {
+    margin-right: 20px;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+.footer-top {
+    padding-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu-wrapper,
+.contact-details,
+.social-networks {
+    width: 30%; /* Điều chỉnh độ rộng tùy thuộc vào thiết kế của bạn */
+}
+
+.footer-menu-wrapper nav,
+.contact-details address,
+.contact-details a,
+.social-networks p {
+    color: #fff;
+}
+
+.footer-menu-wrapper nav a,
+.contact-details a,
+.social-networks a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.footer-menu-wrapper nav ul,
+.contact-details ul,
+.social-networks ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu-wrapper nav li,
+.contact-details li,
+.social-networks li {
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    padding: 20px 0;
+    background-color: #444;
+    text-align: center;
+}
+
+/* Your existing styles can go here */
+
+/* Home Slider Styles */
+.home-slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.flexslider {
+    max-width: 100%;
+    position: relative;
+}
+
+.slides {
+    /* display: none; */ /* Comment out or remove this line to display images */
+}
+
+.slide-description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+/* Navigation Arrows Styles */
+.flex-direction-nav {
+    display:flex;  /* Comment out or remove this line to display navigation arrows */
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.flex-prev,
+.flex-next {
+    position: absolute;
+    top: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+.flex-prev {
+    left: 10px;
+}
+
+.flex-next {
+    right: 10px;
+}
+
+/* Add more styles as needed */
