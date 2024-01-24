@@ -101,6 +101,7 @@ header {
     font-weight: bold;
 }
 
+
 /* Footer Styles */
 .footer {
     background-color: #333;
@@ -213,3 +214,20 @@ header {
 }
 
 /* Add more styles as needed */
+/* Thêm styles cho hiển thị liên kết xã hội trên cùng một dòng */
+.social-networks-horizontal ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-networks-horizontal li {
+    margin-right: 10px;
+}
+
+/* Thêm styles chỉ cho phần "Get Social With Us" */
+.social-networks-horizontal p.invitation {
+    text-align: center; /* Căn giữa văn bản */
+    margin-bottom: 10px; /* Thêm khoảng cách dưới */
+    width: 100%; /* Đặt chiều rộng về 100% */
+}
+
