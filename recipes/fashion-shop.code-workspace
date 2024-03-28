@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../fashion-shop"
+		},
+		{
+			"path": "../../frontend"
+		},
+		{
+			"path": "../../backend"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../ReactJs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CreamProject_Batch138_SEM1"
+	}
+}

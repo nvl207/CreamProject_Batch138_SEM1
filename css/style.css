@@ -27,6 +27,9 @@ h6 {
   font-family: "Muli", sans-serif;
   margin: 0;
 }
+
+
+
 ul{
   margin: 0;
   padding: 0;
@@ -202,6 +205,26 @@ header {
 }
 .slides-navigation a.next {
   right: 0;
+}
+
+.a {
+  display: inline-block;
+  border-radius: 5%;
+  background-color: #a7c0db;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 12px; /* Giảm kích thước phông chữ */
+  padding: 6px 12px; /* Giảm padding để làm cho nút nhỏ hơn */
+  width: 90px; /* Đặt chiều rộng */
+  height: 50px; /* Đặt chiều cao */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.a:hover {
+  background-color: #79b3f0;
 }
 
 .slides-pagination {
@@ -2835,7 +2858,7 @@ input.email {
   padding: 0.7em 0.8em;
   border: solid 1px #ccc;
   min-height: 10em;
-  -webkit-appearance: none;
+ 
   margin-top: 1em;
 }
 .contact-agileinfo input[type="submit"] {
@@ -6556,6 +6579,14 @@ nav.navbar.navbar-default {
 .services-icon:hover div.services-icon-text h4 {
   color: #cddc39;
 }
+
+.w3_agile_team_grids {
+  .w3_agile_team_grids {
+    margin-bottom: 20px
+ }
+}
+
+
 .w3-agile-services-right h5 {
   color: #000000;
   font-size: 1em;
@@ -8069,7 +8100,7 @@ figure.effect-roxy:hover p,
   font-size: 0.9em;
   padding: 0.7em 0.8em;
   border: solid 1px #ccc;
-  -webkit-appearance: none;
+
   display: inline-block;
 }
 input.email {
@@ -9685,3 +9716,4 @@ input.email {
   width: 150px;
   cursor: pointer;
 }
+} }
