@@ -1,0 +1,21 @@
+.frame {
+    width: 300px; /* Chiều rộng của khung */
+    height: 200px; /* Chiều cao của khung */
+    border: 2px solid #000; /* Đường viền kích thước 2px màu đen */
+    padding: 20px; /* Khoảng cách từ nội dung đến đường viền của khung */
+    margin: 50px auto; /* Canh giữa khung */
+}
+
+.ingredient-container ul{
+    border: 2px solid #ccc; /* Đường viền 2px màu xám */
+    padding: 10px; /* Khoảng cách từ nội dung đến đường viền của khung */
+    margin-top: 15px; /* Khoảng cách từ khung đến phần trên */
+    background-color: bisque;
+    border-radius: 5px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.ingredient-container ul li {
+    font-size:  18px;
+}

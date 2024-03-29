@@ -1343,9 +1343,7 @@ nav.navbar.navbar-default {
   background: url("../images/t.webp") no-repeat 0px 0px;
   background-size: cover;
 }
-.team img {
-  background: #f44336;
-}
+
 .w3_agile_team_grids {
   margin: 3em 0 0;
 }
