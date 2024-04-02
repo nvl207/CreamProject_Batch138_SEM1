@@ -5,41 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<header>
+    <div class="header-wrapper">
+      <!-- Logo Section -->
+      <div class="logo">
+        <img src="assets/logo.png" alt="Creamproject Logo" />
+        <small class="tag-line"
+          >Indulge in Creamy Delights, Every Spoonful a Taste of Bliss!</small
+        >
+      </div>
+
+      <!-- Mini Cart Section -->
+      <div class="mini-cart">
+        <i class="cart-icon">🛒</i>
+        <span class="cart-count">0</span>
+      </div>
+
+      <!-- Inspiry Search Wrapper -->
+      <div class="inspiry-search-wrapper">
+        <!-- Add your search form here -->
+      </div>
+
+      <!-- Main Menu Section -->
+      <div class="main-menu-wrapper">
+        <ul class="main-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="about-us/index.html">About Us</a></li>
+          <li><a href="contact-us/index.html">Contact Us</a></li>
+          <li><a href="recipes/index.html">Recipes</a></li>
+          <li><a href="books/index.html">Books</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
 <body>
-    <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
-        <script type="text/javascript">
-        function ValidateForm(frm) {
-        if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
-        if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
-        if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
-        if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
-        return true; }
-        </script>
-        <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
-        <tr> <td>
-        <label for="Name">Name*:</label>
-        </td> <td>
-        <input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
-        </td> </tr> <tr> <td>
-        <label for="PhoneNumber">Phone number:</label>
-        </td> <td>
-        <input name="PhoneNumber" type="text" maxlength="43" style="width:100%;max-width:250px;" />
-        </td> </tr> <tr> <td>
-        <label for="FromEmailAddress">Email address*:</label>
-        </td> <td>
-        <input name="FromEmailAddress" type="text" maxlength="90" style="width:100%;max-width:250px;" />
-        </td> </tr> <tr> <td>
-        <label for="Comments">Comments*:</label>
-        </td> <td>
-        <textarea name="Comments" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
-        </td> </tr> <tr> <td>
-        * - required fields
-        </td> <td>
-        <div style="float:right"><a href="https://mail.google.com/mail/u/0/#inbox" id="lnk100" title="form to email">form to email</a></div>
-        <input name="skip_Submit" type="submit" value="Submit" />
-        <script src="https://mail.google.com/mail/u/0/#inbox" type="text/javascript"></script>
-        </td> </tr>
-        </table>
+    <div class="contact-us form">
+        <form action="" id="contact-us">
+        <input type="text" id="name" name="name" placeholder="Your Name"><br>
+        <input type="text" id="email" name="email" placeholder="Email"><br>
+        <input type="text" id="message" name="message" placeholder="Message"><br>
+        <input type="submit" value="Send Message">
         </form>
+    </div>
+    <style>
+    .contact-us form {
+        text-align: center;
+        }
+        #contact-us {
+        width: 600px;
+        background: #fff;
+        margin: 0 auto;
+        }
+        #contact-us input[type=text] {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 18px;
+        color: #555;
+        display: block;
+        line-height: 1.2;
+        background-color: #fff;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        height: 50px;
+        padding: 0 20px 0 23px;
+        border: 0;
+        box-shadow: 0 5px 20px 0 rgb(0 0 0 / 5%);
+        -moz-box-shadow: 0 5px 20px 0 rgba(0,0,0,.05);
+        -webkit-box-shadow: 0 5px 20px 0 rgb(0 0 0 / 5%);
+        -o-box-shadow: 0 5px 20px 0 rgba(0,0,0,.05);
+        -ms-box-shadow: 0 5px 20px 0 rgba(0,0,0,.05);
+        }
+        #contact-us input[type=text]:focus{
+        border: 0;
+        outline: none;
+        box-shadow: 0 5px 20px 0 rgb(250 66 81 / 10%);
+        -moz-box-shadow: 0 5px 20px 0 rgba(250,66,81,.1);
+        -webkit-box-shadow: 0 5px 20px 0 rgb(250 66 81 / 10%);
+        -o-box-shadow: 0 5px 20px 0 rgba(250,66,81,.1);
+        -ms-box-shadow: 0 5px 20px 0 rgba(250,66,81,.1);
+        }
+        #contact-us #message {
+        outline: none;
+        min-height: 150px;
+        }
+        #contact-us input[type=submit] {
+        background-color: #2b5543;
+        height: 42px;
+        padding: 5px 20px;
+        border-radius: 21px;
+        font-size: 14px;
+        text-transform : uppercase;
+        color: #fff;
+        border: 0;
+        box-shadow: 0 10px 30px 0 rgb(189 89 212 / 50%);
+        -moz-box-shadow: 0 10px 30px 0 rgba(189,89,212,.5);
+        -webkit-box-shadow: 0 10px 30px 0 rgb(189 89 212 / 50%);
+        -o-box-shadow: 0 10px 30px 0 rgba(189,89,212,.5);
+        -ms-box-shadow: 0 10px 30px 0 rgba(189,89,212,.5);
+        }
+        #contact-us input[type="submit"]:hover {
+        background:#09c758;}
+        </style>
 </body>
 </html>
