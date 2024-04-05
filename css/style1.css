@@ -228,7 +228,7 @@ header {
 .social-networks-horizontal p.invitation {
     text-align: center; /* Căn giữa văn bản */
     margin-bottom: 10px; /* Thêm khoảng cách dưới */
-    width: 100%; /* Đặt chiều rộng về 100% */
+    width: 200%; /* Đặt chiều rộng về 100% */
 }
 .contact-us form {
         text-align: center;
